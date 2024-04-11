@@ -1,6 +1,6 @@
 import { createHash } from 'crypto';
 
-async function calculateFileHash(url: string): Promise<string> {
+async function calculateFileHash(url: string) {
   const hash = createHash('sha256');
   const response = await fetch(url);
   const reader = response.body?.getReader();
