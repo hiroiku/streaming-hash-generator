@@ -1,0 +1,28 @@
+{
+  "name": "streaming-hash-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register ./src/main.ts",
+    "start:bulk": "./scripts/run.sh",
+    "lint": "eslint --fix ./src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.30"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.11",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.3"
+  }
+}
